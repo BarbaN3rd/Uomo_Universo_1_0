@@ -1,0 +1,748 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*CSS del BODY del sito*/
+
+body {
+	background-color: #222222;
+	margin: 0;
+}
+
+
+/*Proprietà CSS del link in generale o meglio chiamato il tag <a></a>*/
+
+a {
+	text-decoration: none;
+	color: #ebe8e8;
+}
+
+/*classi per la tabelle contenente il menu superiore*/
+
+.table-elements { /*classe della tabella generale*/
+	width: 1350px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.table-elements-right { /*allineare il testo sulla destra*/
+	text-align: right;
+}
+
+.table-elements-center { /*allineare il testo al centro*/
+	text-align: center;
+}
+
+.submenu{ /*classe per il submenu*/
+	font-family: "Caviar Dreams Bold";
+	font-size: 14pt;
+	color:  #ebe8e8;
+	text-transform: uppercase;
+	text-shadow:0 0 2px #bebebe;
+}
+
+.submenu-blu{ /*classe per il submenu*/
+	font-family: "Caviar Dreams Bold";
+	font-size: 14pt;
+	color:  #ebe8e8;
+	text-transform: uppercase;
+	text-shadow:0 0 2px #bebebe;
+}
+
+.submenu-blu:hover {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #33ccff;
+}
+
+.submenu-blu-active {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #33ccff;
+}
+
+/*classi submenu arancione */
+ 
+.submenu-or { /*classe per il submenu*/
+	font-family: "Caviar Dreams Bold";
+	font-size: 14pt;
+	color:  #ebe8e8;
+	text-transform: uppercase;
+	text-shadow:0 0 2px #bebebe;
+}
+
+.submenu-or:hover {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ff6600;
+}
+
+.submenu-or-active {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ff6600;
+}
+
+/*Sfumatura superiore*/
+
+.sfuTop {
+	background-image: url(images/boxalto.png);
+	height: 220px;
+	max-height: 220px;
+	background-repeat: repeat-x;
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 40px;
+	margin-top: 0px;
+	background-position: top;
+	background-attachment: scroll;
+	margin-bottom: -11px;
+}
+
+.space {
+	margin-bottom: 60px;
+}
+
+.hr-blu {
+	height:2px;
+	border:none;
+	color:#33ccff;
+	background-color:#33ccff;
+}
+
+.hr-arancione{
+
+	height:2px;
+	border:none;
+	color:#ff6600;
+	background-color:#ff6600;
+
+}
+.hr-verde{
+
+	height:2px;
+	border:none;
+	color:#33cc00;
+	background-color:#33cc00;
+
+}
+
+.sfuBottom {
+	background-image: url(images/boxbasso.png);
+	height: 130px;
+	max-height: 220px;
+	width: 100%;
+	background-repeat: repeat-x;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 70px;
+	margin-top: 0px;
+	padding-bottom: 30px;
+	background-position: top;
+	background-attachment: scroll;
+	position: relative !important;
+	bottom: 0px;
+}
+
+.sfuBottom-nera {
+	background-image: url(images/boxbasso-nero.png);
+	height: 120px;
+	max-height: 220px;
+	width: 100%;
+	background-repeat: repeat-x;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 80px;
+	margin-top: 0px;
+	background-position: top;
+	background-attachment: scroll;
+	position: relative !important; /*CAMBIAAAAAA*/
+	bottom: 0px;
+}
+
+/*Classe per la gestione del font sulla sfumatura superiore*/
+
+
+
+
+.text-top {
+	color: #ebe8e8;
+	font-family: "Caviar Dreams Bold";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 125px;
+	transition: all 0.6s ease;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 125px;
+	text-shadow:0 0 1px #bebebe;
+}
+
+.text-top-blu {
+	color: #ebe8e8;
+	font-family: "Caviar Dreams Bold";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 125px;
+	transition: all 0.6s ease;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 125px;
+	text-shadow:0 0 1px #bebebe;
+}
+.text-top-verde {
+	color: #ebe8e8;
+	font-family: "Caviar Dreams Bold";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 125px;
+	transition: all 0.6s ease;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 125px;
+	text-shadow:0 0 1px #bebebe;
+}
+
+
+.text-top:hover /*Far si che quando si passi sopra il nome appaia un riquadro*/ {
+	height: 80px;          
+	width: auto;
+	background-color: #ff6600;
+
+
+}
+.text-top-verde:hover /*Far si che quando si passi sopra il nome appaia un riquadro*/ {
+	height: 80px;          
+	width: auto;
+	background-color: #33cc00;
+
+
+}
+.text-top-blu:hover /*Far si che quando si passi sopra il nome appaia un riquadro*/ {
+	height: 80px;          
+	width: auto;
+	background-color: #33ccff;
+	
+
+}
+
+.text-active /*pagina attiva*/ {
+	color: #ebe8e8;
+	font-size: 12pt;
+	font-family: "Caviar Dreams Bold";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 125px;
+	transition: all 0.6s ease;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 125px;
+	background-color: #ff6600;
+	text-shadow:0 0 2px #bebebe;
+}	
+.text-active-verde /*pagina attiva*/ {
+	color: #ebe8e8;
+	font-size: 12pt;
+	font-family: "Caviar Dreams Bold";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 125px;
+	transition: all 0.6s ease;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 125px;
+	background-color: #33cc00;
+	text-shadow:0 0 2px #bebebe;
+}
+.text-active-blu /*pagina attiva*/ {
+	color: #ebe8e8;
+	font-size: 12pt;
+	font-family: "Caviar Dreams Bold";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 125px;
+	transition: all 0.6s ease;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 125px;
+	background-color: #33ccff;
+	text-shadow:0 0 2px #bebebe;
+}	
+
+/*CLassi per la gestione del titolo al top*/
+
+
+
+.title {
+	font-size: 29pt;
+	font-family: "Caviar Dreams Bold";
+	color: #ebe8e8;
+	text-shadow:0 0 1px #bebebe;
+}
+
+.title-color /*Indica nel titolo la parte colorata di arancione o blu*/ {
+	font-size: 29pt;
+	font-family: "Caviar Dreams Bold";
+	color: #ff6600;
+	text-shadow:0 0 1px #bebebe;
+}
+
+.title-color-blu /*Indica nel titolo la parte colorata di arancione o blu*/ {
+	font-size: 29pt;
+	font-family: "Caviar Dreams Bold";
+	color: #33ccff;
+	text-shadow:0 0 1px #bebebe;
+}
+.title-color-verde-big /*Indica nel titolo la parte colorata di arancione o blu*/ {
+	font-size: 34pt;
+	font-family: "Caviar Dreams Bold";
+	color: #33cc00;
+	text-shadow:0 0 1px #bebebe;
+}
+
+.title-big {
+	font-size: 34pt;
+	font-family: "Caviar Dreams Bold";
+	color: #ebe8e8;
+	text-shadow:0 0 1px #bebebe;
+}
+
+
+.title-color-big /*Indica nel titolo la parte colorata di arancione o blu*/ {
+	font-size: 34pt;
+	font-family: "Caviar Dreams Bold";
+	color: #ff6600;
+	text-shadow:0 0 1px #bebebe;
+}
+
+.title-color-blu-big /*Indica nel titolo la parte colorata di arancione o blu*/ {
+	font-size: 34pt;
+	font-family: "Caviar Dreams Bold";
+	color: #33ccff;
+	text-shadow:0 0 1px #bebebe;
+}
+
+.title-spacing { /*serve a distanziare il menu dal titolo*/
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.title-spacing-home { /*serve a distanziare il menu dal titolo*/
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+
+
+/*Richiamo fonts da file esterno*/
+
+@font-face {
+	font-family: "Caviar Dreams";
+	src: URL('fonts/CaviarDreams.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Caviar Dreams Bold";
+	src: URL('fonts/CaviarDreams_Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: "SkarpaLT";
+	src: URL('fonts/SkarpaLT.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "BebasNeue_Bold";
+	src: URL('fonts/BebasNeue_Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Nobile:400,700,400italic,700italic);
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+/*classi per la tabella*/
+
+
+.tabella-immagini {
+	width: 1342px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.min-left {
+	background-image: url(images/sfumBlu.png);
+	height: 143px;
+	width: 425px;
+	background-repeat:no-repeat;
+}
+
+
+.min-center {
+	background-image: url(images/sfumAranc.png);
+	height: 143px;
+	width: 425px;
+	background-repeat:no-repeat;
+}
+
+.min-right {
+	background-image: url(images/sfumGrigia.png);
+	height: 143px;
+	width: 425px;
+	background-repeat:no-repeat;
+}
+
+
+.min-text {
+	color: #ebe8e8;
+	font-size: 15pt;
+	font-family: "Caviar Dreams Bold";
+	text-shadow:0 0 1px #bebebe;
+}
+
+.min-title {
+	color: #ebe8e8;
+	font-size: 18pt;
+	font-family: "Caviar Dreams Bold";
+	text-shadow:0 0 1px #bebebe;
+}
+
+
+.freccia-min {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+	margin-top: 15px;
+	position: relative;
+	transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-webkit-transition: all 0.6s ease;
+}
+
+.freccia-min:hover {
+	margin-right: 15px;
+	
+}
+
+.container-min-text { /*container creato per mettere le freccie delle miniature allo stesso livello*/
+	height: 113px;
+	width: 414px;
+	padding: 10px;
+}
+
+.text-bottom { /*testo nella sfumatura in basso*/
+	color: #fff;
+	font-size: 14pt;
+	font-family: "Caviar Dreams";
+	text-shadow:0 0 1px #bebebe;
+}
+
+.text-style { 
+	color: #fff;
+	font-size: 18pt;
+	font-family: "Caviar Dreams";
+	text-shadow:0 0 1px #bebebe;
+}
+
+.text-bottom-bold { /*testo in *grassetto* nella sfumatura in basso*/
+	font-family: "Caviar Dreams Bold";
+	text-shadow:0 0 1px #bebebe;
+}
+
+	
+
+/*FUMETTO BLU*/
+
+a span.tt-container { /*container contenuto nascosto*/
+   display:none;
+}
+
+/*parole sulla sinistra */
+a span.tt-container-left { /*container contenuto nascosto*/
+   display:none;
+}
+
+a:hover span.tt-container-left { /*container contenuto visibile con i vari parametri*/
+    background-color: #33ccff;
+	border-radius: 5px;
+    display:block;
+   	height: auto;
+    position: absolute;
+	bottom: 40px;
+    z-index: 1;
+    width: 300px;
+	left: 10px;
+	border: 1px solid grey;
+	padding: 10px;
+	color: #ebe8e8;
+	text-align: center;
+	box-shadow: -2px 1px 5px #000;
+	text-shadow: none !important;
+	font-family: "Caviar Dreams Bold";
+	font-size: 13pt;
+	z-index: 999;
+	text-shadow:0 0 1px #bebebe;
+}
+
+/*fine parole sulla sinistra*/
+
+a:hover { 
+	position: relative; 
+}
+
+a:hover span.tt-container { /*container contenuto visibile con i vari parametri*/
+    background-color: #33ccff;
+	border-radius: 5px;
+    display:block;
+   	height: auto;
+    position: absolute;
+	bottom: 40px;
+    z-index: 1;
+    width: 300px;
+	left: -120px;
+	border: 1px solid grey;
+	padding: 10px;
+	color: #ebe8e8;
+	text-align: center;
+	box-shadow: -2px 1px 5px #000;
+	text-shadow: none !important;
+	font-family: "Caviar Dreams Bold";
+	font-size: 13pt;
+	z-index: 999;
+	text-shadow:0 0 1px #bebebe;
+}
+
+
+a:hover span.tt-arrow { /*freccia del fumetto*/
+    background-image:url(images/arrow-blu.png);
+    height: 18px;
+    position: absolute;
+    width: 39px;
+	left: 0px;
+	bottom: 25px;
+	z-index: 2;
+	margin-left: 17px;
+	z-index: 1099;
+	background-repeat: no-repeat;
+}
+
+/*testi dentro al fumetto*/
+
+.world { 
+	font-family: "Caviar Dreams Bold";
+	font-size: 14pt;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px;
+	text-shadow:0 0 1px #bebebe;
+}
+.textcredit { 
+	font-family: "Caviar Dreams Bold";
+	font-size: 18pt;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow:0 0 2px #bebebe;
+	color: #ebe8e8;
+}
+.name { 
+	font-family: "Caviar Dreams Bold";
+	font-size: 16pt;
+	text-align: center;
+	text-shadow:0 0 1px #bebebe;
+	color: #33cc00;
+}
+.crediti {
+	text-align: center;
+	margin-bottom: none;
+	margin-top: 50px;
+}
+
+
+/*FUMETTO ARANCIONE
+i commenti sono identici a quelli sopra*/
+
+a span.tt-container-or {
+   display:none;
+}
+
+a:hover { 
+	position: relative; 
+}
+
+a:hover span.tt-container-or {
+    background-color: #ff6600;
+	border-radius: 5px;
+    display:block;
+   	height: auto;
+    position: absolute;
+	bottom: 35px;
+    z-index: 1;
+    width: 300px;
+	left: -120px;
+	border: 1px solid grey;
+	padding: 10px;
+	color: #ebe8e8;
+	text-align: center;
+	box-shadow: -2px 1px 5px #000;
+	text-shadow: none !important;
+	font-family: "Caviar Dreams";
+	font-size: 10pt;
+	z-index: 999;
+	text-shadow:0 0 1px #bebebe;
+}
+
+a:hover span.tt-arrow-or {
+    background-image:url(images/arrow.png);
+    height: 18px;
+    position: absolute;
+    width: 39px;
+	left: 0px;
+	bottom: 20px;
+	z-index: 2;
+	margin-left: 17px;
+	z-index: 1099;
+}
+
+/*FINE FUMETTO*/
+
+/*CLASSI PER LA GESTIONE DEL TESTO NELLE PAGINE GENERALI*/
+
+.text-link-blu { /*classe per i link nella sezione uomo*/
+	color: #33ccff;
+	font-family: "Caviar Dreams Bold";
+	font-size: 17pt;
+	text-shadow:0 0 1px #bebebe;
+
+}
+
+.text-link-orance { /*classe per i link nella sezione universo*/
+	color: #ff6600;
+	font-family: "Caviar Dreams Bold";
+	font-size: 17pt;
+	text-shadow:0 0 1px #bebebe;
+
+}
+
+.container-generale { /*container delle pagine generali*/
+	width: 1350px;
+	margin: auto;
+	font-size: 15pt;
+	color: #ebe8e8;
+	font-family: "Caviar Dreams Bold";
+	margin-bottom: 30px;
+	text-align: justify;
+	height: auto;
+	text-shadow:0 0 1px #bebebe;
+	margin-top: 50px;
+	font-weight: normal;
+	margin-bottom: 150px;
+	text-shadow:0 0 2px #bebebe;
+}
+
+.img-dx { /*immagini sulla destra*/
+	float: right;
+	margin: 20px;
+}
+.img-sx { /*immagini sulla destra*/
+	float: left;
+	margin: 20px;
+}
+
+.gen-title-blu { /*titolo generali*/
+	font-size: 22pt;
+	color: #33ccff;
+	font-family: "Caviar Dreams";
+	text-shadow:0 0 1px #bebebe;
+	text-transform: uppercase;
+}
+
+.gen-title-blu-small { /*titolo generali*/
+	font-size: 18pt;
+	color: #33ccff;
+	font-family: "Caviar Dreams";
+	text-shadow:0 0 1px #bebebe;
+	text-transform: uppercase;
+}
+
+.gen-title-or { /*titolo generali*/
+	font-size: 22pt;
+	color: #ff6600;
+	font-family: "Caviar Dreams";
+	text-shadow:0 0 1px #bebebe;
+	text-transform: uppercase;
+}
+
+.gen-title-or-small { /*titolo generali*/
+	font-size: 18pt;
+	color: #ff6600;
+	font-family: "Caviar Dreams";
+	text-shadow:0 0 1px #bebebe;
+	text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+ heigth: 0;
+ width: 0;
+}
+
+::-moz-scrollbar {
+ heigth: 0;
+ width: 0;
+}
+
+.bold-submenu { /*scritta in grassetto*/
+	font-family: "Caviar Dreams Bold";
+	font-size: 17pt;
+}
+
+/*classi per la tabella dei vari pianeti*/
+
+.planets {
+	float: left;
+	margin: 20px;
+}
+
+.left-details {
+	background-color: #b7b7b7;
+	color: #595959;
+	text-transform: uppercase;
+	font-size: 15pt;
+	font-family: "Caviar Dreams Bold";
+	text-align: center;
+}
+
+.details {
+	color: #ebe8e8;
+	font-size: 12pt;
+	background-color: 222222;
+	font-family: "Caviar Dreams";
+	text-align: center;
+}
+
+.title-planets {
+	background-color: #ff6600;
+	font-size: 12pt;
+	text-align: center;
+	text-transform: uppercase;
+}
+	
+	
