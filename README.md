@@ -7,5 +7,5 @@ Copyright 2014, LDSM SEVERI DESIGNIN<br />
 All rights reserved
 
 ```html
-leonardo barbiero
+`leonardo barbiero`
 ```
